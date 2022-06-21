@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/taichi/dev/Private/rust/wasm-tetris'
+wasm-pack build
+make: Leaving directory '/home/taichi/dev/Private/rust/wasm-tetris'
+ 
