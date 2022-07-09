@@ -13,6 +13,34 @@ impl Mino {
     }
 }
 
+pub enum MinoTypes {
+    T,
+    O,
+    I,
+    Z,
+    S,
+    L,
+    J,
+}
+
+pub fn getMino() -> Mino {
+    let M: Mino = Mino {
+        shape: [
+            Coodinate { x: 0, y: 1 },
+            Coodinate { x: 1, y: 0 },
+            Coodinate { x: 1, y: 1 },
+            Coodinate { x: 1, y: 2 },
+        ],
+        color: Colors::Purple,
+    };
+
+    return M;
+}
+
+/**
+ * Mino shapes implementation
+ */
+
 /**
  * [0,1,0,0],
  * [1,1,1,0],
@@ -107,4 +135,20 @@ pub static L: Mino = Mino {
         Coodinate { x: 1, y: 2 },
     ],
     color: Colors::Orange,
+};
+
+/**
+ * [1,0,0,0],
+ * [1,1,1,0],
+ * [0,0,0,0],
+ * [0,0,0,0],
+ */
+pub static J: Mino = Mino {
+    shape: [
+        Coodinate { x: 0, y: 0 },
+        Coodinate { x: 1, y: 0 },
+        Coodinate { x: 1, y: 1 },
+        Coodinate { x: 1, y: 2 },
+    ],
+    color: Colors::Blue,
 };

@@ -1,5 +1,8 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/taichi/dev/Private/rust/wasm-tetris'
-wasm-pack build
-make: Leaving directory '/home/taichi/dev/Private/rust/wasm-tetris'
- 
+make.exe --dry-run --always-make --keep-going --print-directory
+'\\wsl$\Ubuntu\home\taichi\dev(WSL)\Private\rust\wasm-tetris'
+��L�̌��݂̃f�B���N�g���� CMD.EXE ���J�n���܂����B
+UNC �p�X�̓T�|�[�g����܂���BWindows �f�B���N�g��������Ŏg�p���܂��B
+
+'make.exe' �́A�����R�}���h�܂��͊O���R�}���h�A
+����\�ȃv���O�����܂��̓o�b�` �t�@�C���Ƃ��ĔF������Ă��܂���B
+
